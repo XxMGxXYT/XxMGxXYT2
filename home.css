@@ -1,0 +1,268 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #25b3ae;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --white-transparent: #eff7fa;
+    --light-gray: #e1e6f6;
+    --gray: #cdc5d0;
+}
+
+body{
+    background-image: url(./Images/Jasmine\ Pedraza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-link .active{
+    color: var(--green-color);
+}
+
+h1{
+    text-align: center;
+}
+
+/* Links */
+
+.proDiv a{
+    color: red;
+    text-decoration: none;
+}
+
+.proDiv a:hover{
+    color: rgb(247, 62, 62);
+}
+
+.Work a{
+    color: red;
+    text-decoration: none;
+}
+
+.Work a:hover{
+    color: rgb(247, 62, 62);
+}
+
+/* Links */
+/* Navbar */
+.navbar-toggler:focus{
+    box-shadow: none !important
+}
+.navbar-toggler svg{
+    color: rgb(108, 24, 245);
+}
+.navbar{
+    background-color: var(--gray);
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(10, 167, 167);
+}
+/* Navbar */
+
+/* Section One */
+.sec2{
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    background-image: linear-gradient(to right bottom, #e1e6f6, #cdc5d0, #9e98c8, #9d725e);
+}
+.sec2 .container{
+    top: 50% !important
+}
+/* Section One */
+
+/* Section Two */
+
+.skills .line{
+    width: 100%;
+    height: 7px;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+}
+.skills .skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    background-color:#19283f;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.skills .skill h3{
+    color: white;
+}
+
+.skills .container img{
+    width: 100px;
+    height: 100px;
+}
+.skills .progress{
+    height: 10px;
+    width: 90%;
+    border: 1px solid black;
+}
+.skills .progress span{
+    background-color: #ffc400;
+    transition: width 0.3s linear;
+}
+/* Section Two */
+
+/* Section Three */
+.projects{
+    background-image:linear-gradient(to right bottom, #d7e0fc, #eac5f8, #d4cefd, #f3c2ab) ;
+}
+
+/* Projects Divs */
+.projects .proDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+    background-image: linear-gradient(to right bottom, #e0a525, #ce73f0, #988ae9, #e0a525);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.projects .proDiv img{
+    width: 90%;
+    height: 200px;
+}
+
+.projects .line{
+    width: 100%;
+    height: 7px;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+}
+
+.projects .proDiv .langUsed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .proDiv span{
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid black;
+}
+/* Projects Divs */
+
+
+/* Section Three */
+
+/* Section Four */
+
+.Work .line{
+    width: 100%;
+    height: 7px;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+}
+
+.Work .work-site{
+    background-image: linear-gradient(to right bottom, gray, darkgray, gray);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.Work .work-site img{
+    width: 100px;
+    height: 100px;
+}
+
+.Work .blog-site{
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+/* Section Four */
+/* Section Five */
+
+.contact{
+    min-height: 40vh;
+    background-color: #19283f;
+}
+
+.contact .logo svg{
+    color: darkgray;
+    font-size: 30px;
+}
+
+.contact h1{
+    color: white;
+}
+
+.contact .logo{
+    margin-top: 13%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin-bottom: 10%;
+    transition: 0.5s;
+}
+
+.another-contact{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.another-contact span{
+    color: white;
+}
+
+.contact .logo .SVG1 svg:hover{
+    color: #3b5998;
+}
+
+.contact .logo .SVG2 svg:hover{
+    color: #E1306C;
+}
+
+.contact .logo .SVG3 svg:hover{
+    color: #0A66C2;
+}
+
+.contact .logo .SVG4 svg:hover{
+    color: #444444;
+}
+
+.another-contact .svg1 svg{
+    color: rgb(3, 218, 3);
+    font-size: 20px;
+}
+
+.another-contact .svg2 svg{
+    color: orange;
+    font-size: 20px;
+}
+
+.another-contact .svg2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.another-contact .svg2 a:hover{
+    color: #e0a525;
+}
+
+/* Section Five */
