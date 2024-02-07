@@ -115,7 +115,7 @@ function projectStatus(spanOne, spanTwo, percent){
     let stateNumber = percent
     spanTwo.innerHTML = `${stateNumber}%`
     // the position of the second span
-    let statePositionLeft = `${percent - 10}%`
+    let statePositionLeft = `${percent - 12}%`
     spanTwo.style.left = statePositionLeft
 }
 

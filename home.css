@@ -145,7 +145,7 @@ h1{
 }
 
 .projects .proj_state{
-    width: 95%;
+    width: 100%;
     height: 10px;
     background-color: white;
     position: relative;
@@ -278,3 +278,49 @@ h1{
 }
 
 /* Section Five */
+
+@media (min-width: 200px) and (max-width: 440px){
+    .projects .proDiv{
+        height: 30vh;
+        width: 44% !important
+    }
+    .projects .proDiv img {
+        width: 80%;
+        height: 160px;
+    }
+    .projects .proDiv h4{
+        font-size: 15px;
+    }
+    .projects .proj_state{
+        width: 90%;
+    }
+    .projects .proj_state span:last-child{
+        width: 27px;
+        height: 27px;   
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 767px){
+    .projects .proDiv{
+        height: 35vh;
+        width: 44% !important
+    }
+    .projects .proDiv img {
+        width: 80%;
+        height: 160px;
+    }
+    .projects .proDiv h4{
+        font-size: 18px;
+    }
+    .projects .proj_state{
+        width: 90%;
+    }
+    .projects .proj_state span:last-child{
+        width: 27px;
+        height: 27px;   
+        font-size: 10px;
+    }
+}
+
+
